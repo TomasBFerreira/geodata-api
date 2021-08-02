@@ -2,9 +2,9 @@ name: Laravel-PHPUnit-test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ feature/githubaction ]
   pull_request:
-    branches: [ main ]
+    branches: [ feature/githubaction ]
 
 jobs:
   laravel-tests:
